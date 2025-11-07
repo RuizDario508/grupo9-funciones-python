@@ -1,6 +1,6 @@
-from funciones.potenciaCoronel import potencia_coronel
+from funciones.PotenciaCoronel import Potencia_Coronel
 
-def test_potencia_coronel():
-    assert potencia_coronel(2, 3) == 8
-    assert potencia_coronel(5, 0) == 1
-    assert potencia_coronel(-2, 3) == -8
+def test_Potencia_Coronel():
+    assert Potencia_Coronel(2, 3) == 8
+    assert Potencia_Coronel(5, 0) == 1
+    assert Potencia_Coronel(-2, 3) == -8
