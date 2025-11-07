@@ -7,5 +7,5 @@ if __name__ == "__main__":
     print("Ejecución de pruebas de las funciones del grupo")
     
     # Pruebas de restar_medina
-    print("10 - 4 =", restar_medina(10, 4))   # Debe imprimir 6
-    print("5 - 10 =", restar_medina(5, 10))   # Debe imprimir -5
+    print("10 - 4 =", restar_medina(10, 4))   
+    print("5 - 10 =", restar_medina(5, 10))   
