@@ -9,6 +9,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Clonar el repositorio
         uses: actions/checkout@v3
@@ -20,8 +21,9 @@ jobs:
 
       - name: Instalar dependencias
         run: |
-          pip install pytest
+          python -m pip install --upgrade pip
+          python -m pip install pytest
 
       - name: Ejecutar pruebas
         run: |
-          pytest -v
+          python -m pytest -v
