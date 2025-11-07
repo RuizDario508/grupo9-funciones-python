@@ -1,0 +1,6 @@
+#tests/test_factorial_royano.py
+from funciones.factorial_royano import factorial
+
+def test_factorial():
+    assert factorial(5) == 120
+    assert factorial(-3) is None
