@@ -1,4 +1,4 @@
-from funciones.es_par_segovia import es_par_segovia
+from funciones.es_par_segovia import es_par_segovia #probando cambio de work
 
 def test_es_par_segovia():
     assert es_par_segovia(4) is True
