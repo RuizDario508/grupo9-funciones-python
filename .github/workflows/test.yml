@@ -16,3 +16,9 @@ jobs:
  python-version: '3.10'
  - name: Instalar dependencias
  run: |
+Metodología de Sistemas II
+Prof. Rosalía Insaurralde
+ pip install pytest
+ - name: Ejecutar pruebas
+ run: |
+ pytest -v
